@@ -18,7 +18,7 @@ module Myapp
     #
     config.time_zone = "Tokyo"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.generaters do |g|
+    config.generators do |g|
       g.assets false
       g.skip_routes false
       g.helper false
